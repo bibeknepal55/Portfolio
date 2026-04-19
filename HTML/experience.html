@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience — Bibek Nepal</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <script>
+    const t = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', t);
+  </script>
+</head>
+<body>
+
+  <div class="page">
+    <div class="section">
+      <p class="section-label">My Journey</p>
+      <h2 class="section-title">Experience & Education</h2>
+      <p class="section-sub">Where I've worked and studied.</p>
+
+      <div class="exp-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:start;">
+
+        <div>
+          <h3 style="font-size:0.72rem; font-weight:800; text-transform:uppercase; letter-spacing:2px; color:var(--accent); margin-bottom:1.75rem;">Work Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">Feb 2024 – Jan 2025</div>
+              <h3>Graphic Designer · Social Media Manager</h3>
+              <h4>Mulpani Driving Center</h4>
+              <p>Designed marketing posters and banners and connected with customers online to promote services and increase reach.</p>
+              <div class="tags" style="margin-top:0.6rem;">
+                <span class="tag">Photoshop</span>
+                <span class="tag">Meta Ads</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3 style="font-size:0.72rem; font-weight:800; text-transform:uppercase; letter-spacing:2px; color:var(--accent); margin-bottom:1.75rem;">Education</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">2022 – 2026</div>
+              <h3>Bachelors / Computer Applications</h3>
+              <h4>Tribhuvan University / St. Lawrence College</h4>
+              <p>Course that helped me acquire knowledge on Web Development, DSA, DBMS, Programming Languages, OOPs, etc.</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">2020 – 2022</div>
+              <h3>High School</h3>
+              <h4>St. Lawrence</h4>
+              <p>Studied +2 Management with Computer Science.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="../JS/components.js"></script>
+</body>
+</html>

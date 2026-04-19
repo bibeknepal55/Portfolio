@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibek Nepal — Portfolio</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <script>
+    const t = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', t);
+  </script>
+</head>
+<body>
+
+  <div class="page">
+
+    <!-- Hero -->
+    <div style="background: var(--white); border-bottom: 1px solid var(--border); position: relative; z-index: 1;">
+      <section class="hero">
+        <div class="hero-left">
+          <div class="hero-tag">Available for work</div>
+          <h1>Software Developer<br><em>& AI/ML Enthusiast.</em></h1>
+          <p>Hi, I'm Bibek Nepal. I design graphics, edit videos and build web apps. I'm also learning AI/ML.</p>
+          <div class="hero-btns">
+            <a href="projects.html" class="btn btn-primary">See My Work</a>
+            <a href="contact.html" class="btn btn-ghost">Say Hello</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img src="../Images/home-img.JPG" alt="Bibek Nepal">
+          <p class="hero-photo-name">Bibek Nepal</p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Overview -->
+    <div class="section">
+      <p class="section-label">What I Do</p>
+      <h2 class="section-title">Everything you need to know</h2>
+      <p class="section-sub">A quick overview of my skills, work and experience.</p>
+
+      <div class="cards-grid">
+
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Skills</h3>
+          <p>Python, Machine Learning, .Net, Web Development, Java, Graphic Design, Video Editing, Networking Basics and Cloud Basics. Always expanding the toolkit.</p>
+          <a href="skills.html" class="btn btn-ghost">View Skills →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🚀</div>
+          <h3>Projects</h3>
+          <p>Built applications like Trek Booking System, Ecommerce Platform and various API-based projects from scratch.<br>Currently working on some AI/ML projects.</p>
+          <a href="projects.html" class="btn btn-ghost">View Projects →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">💼</div>
+          <h3>Experience</h3>
+          <p>Worked as a Graphic Designer and Social Media Manager for a year.<br>Looking for new opportunities in software development.</p>
+          <a href="experience.html" class="btn btn-ghost">View Experience →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🧑💻</div>
+          <h3>About Me</h3>
+          <p>Learning developer with a interest for building things that matter. Always learning, always growing.</p>
+          <a href="about.html" class="btn btn-ghost">Learn More →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">📬</div>
+          <h3>Contact</h3>
+          <p>Have a project in mind or just want to say hi?<br>Feel free to reach out anytime.</p>
+          <a href="contact.html" class="btn btn-ghost">Get in Touch →</a>
+        </div>
+
+        <div class="card open-to-work-card">
+          <div class="card-icon" style="background: rgba(0,200,150,0.12);">✨</div>
+          <h3>Open to Work</h3>
+          <p>Looking for exciting opportunities in software development and design/editing. 😯</p>
+          <a href="contact.html" class="btn btn-accent">Hire Me →</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CTA Strip -->
+    <div class="strip">
+      <h2>Let's build something <span>great</span> together.</h2>
+      <p>I'm always open to new projects, collaborations and opportunities.</p>
+      <a href="contact.html" class="btn btn-accent">Get in Touch</a>
+    </div>
+
+  </div>
+
+  <script src="../JS/components.js"></script>
+</body>
+</html>

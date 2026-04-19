@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Bibek Nepal</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <script>
+    const t = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', t);
+  </script>
+</head>
+<body>
+
+  <div class="page">
+    <div class="section">
+      <p class="section-label">Who I Am</p>
+      <h2 class="section-title">About Me</h2>
+      <p class="section-sub">A little bit about my background and what drives me.</p>
+
+      <div class="about-grid">
+
+        <div class="avatar-card">
+          <div class="avatar"><img src="../Images/avatar.JPG" alt="Bibek Nepal"></div>
+          <h2>Bibek Nepal</h2>
+          <p>Web Developer</p>
+          <p style="margin-top:0.4rem; font-size:0.82rem;">📍 Mulpani, Kathmandu</p>
+          <div class="stat-row">
+            <div class="stat">
+              <strong>5+</strong>
+              <span>Projects</span>
+            </div>
+            <div class="stat">
+              <strong>1+</strong>
+              <span>Years Exp.</span>
+            </div>
+          </div>
+          <div style="margin-top:1.25rem; display:flex; gap:0.5rem; justify-content:center; flex-wrap:nowrap;">
+            <a href="contact.html" class="btn btn-primary" style="white-space:nowrap;">Hire Me</a>
+            <a href="unavailable.html" class="btn btn-ghost" style="white-space:nowrap;">Resume</a>
+          </div>
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap:1.25rem;">
+
+          <div class="card">
+            <h3>👋 Who I Am</h3>
+            <p>Computer science student with a strong interest in software development and AI/ML technologies, focused on building practical, user-oriented applications.</p>
+          </div>
+
+          <div class="card">
+            <h3>🎯 What I Do</h3>
+            <p>I design and develop web applications, create digital content for promotion and build connections online to engage users and grow reach.</p>
+          </div>
+
+          <div class="card">
+            <h3>🌱 Currently Learning</h3>
+            <p>I am currently focused on learning AI/ML along with .NET technologies.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">C#</span>
+              <span class="tag">Angular</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>⚡ Fun Facts</h3>
+            <p>I love exploring new places through treks and travel, creating content and spending time reading and learning.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../JS/components.js"></script>
+</body>
+</html>
