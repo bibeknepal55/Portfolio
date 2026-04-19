@@ -93,7 +93,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2025 <span>Bibek Nepal</span> · Designed & Built by me</p>
+      <p>© 2026 <span>Bibek Nepal</span></p>
     </div>
   `;
   document.body.appendChild(footer);
